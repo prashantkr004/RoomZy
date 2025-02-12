@@ -6,11 +6,11 @@ body, html {
 }
 
 .login-container {
-    background-image: url('../../assets/login1.jpg'); /* Background image */
+    background-image: url('../../assets/login1.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
-    width: 100vw; /* Adjusted to 100vw for full width */
+    width: 100vw; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@ body, html {
 .modal {
     background: rgba(255, 255, 255, 0.2);
     -webkit-backdrop-filter: blur(15px);
-    backdrop-filter: blur(15px); /* Blur effect */
+    backdrop-filter: blur(15px);
     border-radius: 16px;
     padding: 20px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
@@ -30,18 +30,18 @@ body, html {
 }
 
 .modal-logo {
-    width: 20vh; /* Adjust logo size */
+    width: 20vh;
     height: 20vh;
 }
 
 .form-container {
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center items */
+    flex-direction: column;
+    align-items: center;
 }
 
 h2 {
-    color: #fff; /* Text color */
+    color: #fff;
     margin-bottom: 10px;
 }
 
@@ -59,32 +59,32 @@ input {
     border: none;
     border-radius: 5px;
     outline: none;
-    background: rgba(255, 255, 255, 0.3); /* Semi-transparent input background */
-    color: #fff; /* Input text color */
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
 }
 
 input::placeholder {
-    color: #ccc; /* Placeholder color */
+    color: #ccc;
 }
 
 .checkbox-container {
     display: flex;
-    justify-content: space-between; /* Space between checkbox and link */
-    align-items: center; /* Center vertically */
-    width: 100%; /* Full width to align items properly */
-    margin: 8px 0; /* Add some margin */
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%; 
+    margin: 8px 0;
 
 }
 
 .forgot-password {
-    color: #007bff; /* Link color */
-    text-decoration: none; /* Remove underline */
+    color: #007bff;
+    text-decoration: none;
     font-size: 0.7rem;
 }
 
 .checkbox-container label {
-    display:inline-flex; /* Use flexbox for the label */
-    align-items: center; /* Center checkbox and text vertically */
+    display:inline-flex;
+    align-items: center;
     font-size: 0.7rem;
 }
 
@@ -92,40 +92,40 @@ input::placeholder {
     display: inline-block;
     height: 15px;
     width:20px;
-    margin-right: 5px; /* Space between checkbox and label text */
+    margin-right: 5px;
 }
 
 .forgot-password:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;
 }
 
 button {
     width: 95%;
     padding: 10px;
-    margin: 10px 0; /* Adjust margin for spacing */
+    margin: 10px 0;
     border: none;
     border-radius: 5px;
-    background-color: #007bff; /* Button color */
+    background-color: #007bff; 
     color: white;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #0056b3; /* Button hover color */
+    background-color: #0056b3;
 }
 
 .signup-container {
- margin-top: 10px; /* Space above the sign-up message */
-    font-size: 0.8rem; /* Font size for the sign-up message */
-    color: #fff; /* Text color */
+ margin-top: 10px;
+    font-size: 0.8rem;
+    color: #fff;
 }
 
 .signup-link {
-    color: #007bff; /* Link color */
-    text-decoration: none; /* Remove underline */
+    color: #007bff; 
+    text-decoration: none;
 }
 
 .signup-link:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;
 }

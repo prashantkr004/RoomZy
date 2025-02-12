@@ -1,6 +1,6 @@
 import React from 'react';
 import './LoginScreen.css';
-import loginImage from '../../assets/account.png'; // Import the image
+import loginImage from '../../assets/account.png';
 
 const LoginScreen = () => {
     return (
