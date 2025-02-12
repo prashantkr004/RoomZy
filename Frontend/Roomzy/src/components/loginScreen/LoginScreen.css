@@ -1,0 +1,131 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+.login-container {
+    background-image: url('../../assets/login1.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw; /* Adjusted to 100vw for full width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px); /* Blur effect */
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.modal-logo {
+    width: 20vh; /* Adjust logo size */
+    height: 20vh;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items */
+}
+
+h2 {
+    color: #fff; /* Text color */
+    margin-bottom: 10px;
+}
+
+p {
+    color:gray;
+    font-size: small;
+    margin-bottom: 10px;
+
+}
+
+input {
+    width: 88%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent input background */
+    color: #fff; /* Input text color */
+}
+
+input::placeholder {
+    color: #ccc; /* Placeholder color */
+}
+
+.checkbox-container {
+    display: flex;
+    justify-content: space-between; /* Space between checkbox and link */
+    align-items: center; /* Center vertically */
+    width: 100%; /* Full width to align items properly */
+    margin: 8px 0; /* Add some margin */
+
+}
+
+.forgot-password {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 0.7rem;
+}
+
+.checkbox-container label {
+    display:inline-flex; /* Use flexbox for the label */
+    align-items: center; /* Center checkbox and text vertically */
+    font-size: 0.7rem;
+}
+
+.checkbox-container input {
+    display: inline-block;
+    height: 15px;
+    width:20px;
+    margin-right: 5px; /* Space between checkbox and label text */
+}
+
+.forgot-password:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+button {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0; /* Adjust margin for spacing */
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Button color */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Button hover color */
+}
+
+.signup-container {
+ margin-top: 10px; /* Space above the sign-up message */
+    font-size: 0.8rem; /* Font size for the sign-up message */
+    color: #fff; /* Text color */
+}
+
+.signup-link {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.signup-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
