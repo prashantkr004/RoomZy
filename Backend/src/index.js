@@ -1,11 +1,11 @@
-const {serverConfig,Logger}=require('./config/index.js');
-
-const express= require('express');
-const apiRoutes=require('./routes');
-const app= express();
-
-app.use('/api',apiRoutes);
-app.listen(serverConfig.PORT,()=>{
-    console.log(`Server running on port ${serverConfig.PORT}`);
-    Logger.info('Successfully started the server',"root",{msg:"something"});
-}); 
+const express = require("express");
+const connectDB = require("./config/server-config");
+const dotenv = require("dotenv");
+const authRoutes = require("./routes/authRoutes");
+dotenv.config();
+connectDB();
+const app = express();
+app.use(express.json());
+app.use("/api", authRoutes);
+port=8000;
+app.listen(port, () => console.log(`Server running on port ${port}`));
