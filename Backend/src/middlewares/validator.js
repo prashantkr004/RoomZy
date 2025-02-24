@@ -32,4 +32,5 @@ function validateSignup(req, res, next) {
     next();
 }
 
-module.exports = { validateSignup };
+
+module.exports = { validateSignup};
