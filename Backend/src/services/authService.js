@@ -42,7 +42,8 @@ const login = async (email, password) => {
 
   if (!user.isVerified) throw new Error("Please verify your email first");
 
-  return { token: generateToken(user) };
+  return { token: generateToken(user) };  // has changed here
+  
 };
 
 // Forgot Password (send OTP)

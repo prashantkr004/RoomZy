@@ -32,4 +32,19 @@ function validateSignup(req, res, next) {
     next();
 }
 
-module.exports = { validateSignup };
+const validateRoomUpdate=(req)=>{
+
+    // const allowedfield=[
+    //     profilePicture,price,address,city,state,pinCode,latitude,longitude,
+    //     rating,bedRoom,bathRoom,kitchen,roomType,furnished,amenities,description,availableFrom,
+    //     leaseDuration,image
+    // ];
+
+    // const isEditAllowed = Object.keys(req.body).every((field)=>
+    //     allowedfield.includes(field)
+    // );
+    // return isEditAllowed;
+
+    return true;
+}
+module.exports = { validateSignup ,validateRoomUpdate};
