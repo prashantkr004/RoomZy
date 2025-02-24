@@ -1,5 +1,4 @@
 const Owner = require("../models/OwnerModel");
-const { validateRoomUpdate } = require("../middlewares/validator");
 
 const addroom =  async (req, res) => {
     try {
